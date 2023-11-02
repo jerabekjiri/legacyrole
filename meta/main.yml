@@ -48,7 +48,7 @@ galaxy_info:
     #       Maximum 20 tags per role.
 
 dependencies:
-  - role: geerlingguy.nodejs
+  - name: geerlingguy.nodejs
     tags: ["nodejs"]
     vars:
       nodejs_version: "{{ wireguard_easy_nodejs_version }}"
