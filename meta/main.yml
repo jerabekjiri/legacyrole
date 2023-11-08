@@ -64,4 +64,4 @@ galaxy_info:
 #   - { role: joshualund.golang, when: consul_install_consul_cli == true }
 
 dependencies:
-  - UnderGreen.prometheus-exporters-common
+  - name: UnderGreen.prometheus-exporters-common
